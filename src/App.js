@@ -1,4 +1,7 @@
-import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import Home from './pages/Home'
+import Company from './pages/Company'
+import Contact from './pages/Contact'
 
 function App(){
   return (
@@ -7,12 +10,28 @@ function App(){
         <li>
           <Link to="/">Home</Link>
         </li>
+        <li>
+          <Link to="/company">Company</Link>
+        </li>
+        <li>
+          <Link to="/contact">Contact</Link>
+        </li>
       </ul>
+      {/* it was necessary update the routing configuration in the App.js or another relevant file. Replace the Switch component that Matheys Battisti talked about with the Routes component, like I made below */}
+      <Routes>
+        <Route exact path="/" element={<Home/>}/>
+        <Route path="/company" element={<Company/>}/>
+        <Route path="/contact" element={<Contact/>}/>
+      </Routes>
     </Router>
   )
 }
 
 export default App
+
+
+
+
 
 // import { useState } from 'react';
 // import './App.css';
@@ -22,6 +41,8 @@ export default App
 // // import Events from './components/Event';
 // // import Form from './components/Form';
 // // import OutraLista from './components/OtherList'
+
+//to run the Router dom its necessary install for the terminal -> npm install react-router-dom
 
 // function App() {
 
