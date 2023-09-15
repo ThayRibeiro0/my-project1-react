@@ -23,6 +23,7 @@ function App(){
 export default App
 
 
+//install icons in react: npm install react-icons 
 
 
 
