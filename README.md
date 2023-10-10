@@ -29,4 +29,3 @@ The project use the node_modules, javascript.jsx and javascript.js, react, html 
 
 ## Referência
 - [Youtube] - Curso de React | Matheus Battisti - Hora de Codar - (https://www.youtube.com/watch?v=FXqX7oof0I4&list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO)
-- [Youtube] - React Router 6: como atualizar e novos recursos | Matheus Battisti - Hora de Codar - (https://www.youtube.com/watch?v=IC71Y214Xcc&list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO&index=41)
