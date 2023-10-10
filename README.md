@@ -22,5 +22,10 @@ Learning how works the React library, complement the studies with Codecademy.
 
 The project use the node_modules, javascript.jsx and javascript.js, react, html and css to file the project. 
 
+## Installation
+
+### Npm install
+### Npm run start
+
 ## Referência
 - [Youtube] - Curso de React | Matheus Battisti - Hora de Codar - ([https://dev.to/envoy_/150-badges-for-github-pnk](https://www.youtube.com/watch?v=FXqX7oof0I4&list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO))
